@@ -39,15 +39,15 @@ function Banner() {
               <a href='#' className='text-gradient '>My Portfolio</a>
             </motion.div>
               <div className='Media flex gap-x-6 text-2xl max-w-max mx-auto lg:mx-0'>
-                <a href='#'>
+                <a href='https://web.facebook.com/emerald.daniel.5/'>
                   <FaFacebook />
 
                 </a>
-                <a href='#'>
+                <a href='https://www.linkedin.com/in/linus-daniel-a734b2283/'>
                   <FaLinkedin />
 
                 </a>
-                <a href='#'>
+                <a href='https://twitter.com/Linus_vandu'>
 
                   <FaTwitter />
                 </a>
