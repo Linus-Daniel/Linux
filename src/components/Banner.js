@@ -38,7 +38,7 @@ function Banner() {
               <button className='btn btn-lg'>Contact Me</button>
               <a href='#' className='text-gradient '>My Portfolio</a>
             </motion.div>
-              <div variants={fadeIn("up",0.3)} initial="hidden" whileInView={"show"} viewport={{once:false, amount:0.7}}   className='Media flex gap-x-6 text-2xl max-w-max mx-auto lg:mx-0'>
+              <div className='Media flex gap-x-6 text-2xl max-w-max mx-auto lg:mx-0'>
                 <a href='#'>
                   <FaFacebook />
 
@@ -51,7 +51,7 @@ function Banner() {
 
                   <FaTwitter />
                 </a>
-                <a href='https://github.com/'>
+                <a href='https://github.com/Linus-Daniel/Linux'>
 
                   <FaGithub />
                 </a>

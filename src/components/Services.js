@@ -17,17 +17,17 @@ function Services() {
             {
               services.map((service)=>{
                 return(
-                  <section className='flex border-b justify-between border-slate-300 p-2'>
+                  <section key={Math.random()} className='flex border-b justify-between border-slate-300 p-2'>
 
-                  <div key={service} className='px-4'>
-                      <p key={service.name} className=' text-lg  font-primary'>{service.name}</p>
-                      <p key={service.description} className='text-sm lg:text-normal '>{service.description}</p>
+                  <div  className='px-4'>
+                      <p  className=' text-lg  font-primary'>{service.name}</p>
+                      <p  className='text-sm lg:text-normal '>{service.description}</p>
                     </div>
                     <div>
                     <a href='more' className='btn w-9 h-9 text-white flex items-center justify-center'>
                     <BsArrowUpRight  />
                     </a>
-                      <a key={service.link} className='text-gradient text-sm'>Learn more</a>
+                      <a  className='text-gradient text-sm'>Learn more</a>
                     </div>
                   </section>
                 )
