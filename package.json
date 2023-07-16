@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "lisan",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "tsc && yarn build",
+    "build": "vite build",
     "serve": "vite preview"
   },
   "eslintConfig": {
@@ -48,6 +48,8 @@
     "vite-tsconfig-paths": "^4.2.0"
   },
   "main": "index.js",
-  "repository": "https://github.com/cristianmihai01/portfolio-starter.git",
-  "license": "MIT"
+  "repository": "https://github.com/Linus-Daniel/Linux.git",
+  "license": "Nil",
+  "description": "\"non\"",
+  "author": "Linus"
 }
